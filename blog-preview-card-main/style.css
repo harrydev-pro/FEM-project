@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "figtree",sans-serif;
+    background-color: hsl(47, 88%, 63%);;
+}
+.wrapper{
+    width: 300px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+.pics img{
+    width: 297px;
+    border-radius: 10px;
+}
+#first{
+    background-color:hsl(47, 88%, 63%);
+    width: 60px;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 800;
+font-size: 12px;
+text-align: center;
+text-transform:capitalize;
+
+}
+.ssd{
+    font-size: 14px;
+    font-weight: 500;
+}
+h4 a{
+    font-weight: 800;
+    font-size: 19px;
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    font-family: "figtree";
+
+}
+h4 a:hover{
+    color:hsl(47, 88%, 63%); ;
+}
+#pics{
+    color: hsl(0, 0%, 42%);
+    font-size: 15px;
+}
+.greg {
+    gap: 10px;
+    display: flex;
+}
+.greg img{
+width: 35px;
+height: 35px;
+    margin-top: 15px;
+    align-items: center;
+}
+.greg p{
+font-size: 13px;
+font-weight: 800;
+margin-top: 26px;
+}
+
+
+
+/*
+
+media query
+
+
+*/
+
+@media screen and (max-width: 375px) {
+ body {
+   margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: "figtree",sans-serif;
+    background-color: hsl(47, 88%, 63%);;
+ }
+ }
+.wrapper{
+    width: 280px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+.pics img{
+    width: 277px;
+    border-radius: 10px;
+}
+#first{
+    background-color:hsl(47, 88%, 63%);
+    width: 60px;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 800;
+font-size: 12px;
+text-align: center;
+text-transform:capitalize;
+
+}
+.ssd{
+    font-size: 14px;
+    font-weight: 500;
+}
+h4 a{
+    font-weight: 800;
+    font-size: 19px;
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    font-family: "figtree";
+
+}
+h4 a:hover{
+    color:hsl(47, 88%, 63%); ;
+}
+#pics{
+    color: hsl(0, 0%, 42%);
+    font-size: 14px;
+}
+.greg {
+    gap: 10px;
+    display: flex;
+}
+.greg img{
+width: 35px;
+height: 35px;
+    margin-top: 15px;
+    align-items: center;
+}
+.greg p{
+font-size: 13px;
+font-weight: 800;
+margin-top: 26px;
+}
+
+
