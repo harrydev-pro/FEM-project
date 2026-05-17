@@ -1,0 +1,92 @@
+body{
+    background-color:hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.card {
+    background-color:hsl(215, 32%, 27%);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    margin: auto;
+    overflow: hidden;
+}
+.card .equilibrium {
+    width: 87%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 23px;
+
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    margin: 20px;
+}
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.card .description {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    margin: 0 20px 20px;
+    line-height: 1.5;
+}
+ .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 0 20px 20px;
+    margin-top: -15px;
+    font-size:14px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+.price .eth{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    gap: 10px;
+    font-weight: 600;
+}
+.price .time {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    gap: 10px;
+    font-weight: 600;
+}
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    margin-top: -15px;
+}
+.creator .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid hsl(0, 0%, 100%);
+}
+.creator .name {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+.creator p {
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9em;
+    margin: 0;
+}
+.creator .name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
